@@ -232,129 +232,266 @@
       </p>
     </div>
 
-    <!-- Marquee -->
-    <div class="relative z-10">
-      <div class="marquee-wrapper">
-        <!-- Card 1 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+    <!-- Marquee - Continuous Scrolling Loop -->
+    <div class="relative z-10 overflow-hidden">
+      <div class="marquee-wrapper flex" style="width: fit-content; animation: marquee 40s linear infinite; will-change: transform;">
+        
+        <!-- First set of cards -->
+        <!-- 1 Heritage & Cultural Preservation -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Home / Real Estate Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                d="M3 12l9-9 9 9M4 10v10a1 1 0 001 1h14a1 1 0 001-1V10" />
+            <!-- Temple / Heritage Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="animation: iconNeon 2s infinite; filter: brightness(70%)">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 10h18M5 10V6l7-3 7 3v4M6 10v8M18 10v8M3 18h18"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Pune Real Estate Virtual Tours
+            Heritage & Cultural Preservation
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            Immersive 360° property walkthroughs for residential and commercial real estate.
+            Digital archiving and virtual tours of historical landmarks, temples, and forts to preserve and promote cultural heritage.
           </p>
         </div>
 
-        <!-- Card 2 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+        <!-- 2 Academic & Campus Tours -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Hospital Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6v12M6 12h12" />
+            <!-- Education Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 6l9 4-9 4-9-4 9-4zM3 10v6l9 4 9-4v-6"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Hospitals & Clinics Virtual Tours
+            Academic & Campus Tours
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            Virtual walkthroughs for hospitals, clinics, and diagnostic centers in Pune.
+            Comprehensive 360° walkthroughs designed to showcase campus infrastructure and facilities to prospective students.
           </p>
         </div>
 
-        <!-- Card 3 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+        <!-- 3 Premium Real Estate -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Jewellery / Fashion Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                d="M12 2l4 4-4 4-4-4 4-4zM4 10l8 12 8-12" />
+            <!-- Home Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 12l9-9 9 9M4 10v10h16V10"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Fashion & Jewellery Virtual Tours
+            Premium Real Estate
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            Premium showroom-style virtual tours for fashion and jewellery brands.
+            High-fidelity virtual property tours delivering immersive spatial experiences for luxury residential and commercial listings.
           </p>
         </div>
 
-        <!-- Card 4 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+        <!-- 4 Automotive & Retail Showrooms -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Showroom Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4 6h16v12H4zM8 6V4h8v2" />
+            <!-- Car Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 11l2-5h10l2 5M3 11h18M6 16a1 1 0 100 2 1 1 0 000-2zm12 0a1 1 0 100 2 1 1 0 000-2z"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Showroom Virtual Tours
+            Automotive & Retail Showrooms
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            Interactive 360° tours for product showrooms and retail spaces.
+            Interactive digital showrooms allowing customers to explore products and retail environments with precision detail.
           </p>
         </div>
 
-        <!-- Card 5 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+        <!-- 5 Hospitality & Leisure -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Office Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 21V3h18v18M9 21v-6h6v6" />
+            <!-- Hotel Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 21V7h16v14M4 7l8-4 8 4"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Corporate Office Virtual Tours
+            Hospitality & Leisure
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            Professional virtual tours for corporate offices and workspaces in Pune.
+            Engaging virtual previews of hotels, resorts, and restaurants designed to drive bookings and showcase ambiance.
           </p>
         </div>
 
-        <!-- Card 6 -->
-        <div
-          class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+        <!-- 6 Wellness & Fitness -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
           <div class="w-14 h-14 mb-5 flex items-center justify-center">
-            <!-- Spa / Gym Icon -->
-            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none"
-              stroke="currentColor" viewBox="0 0 24 24"
-              style="animation: iconNeon 2s infinite; filter: brightness(70%)">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M7 11h10M5 7h14M9 15h6" />
+            <!-- Dumbbell Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10h2v4H4zM18 10h2v4h-2zM6 11h12v2H6z"/>
             </svg>
           </div>
           <h3 class="font-semibold text-xl mb-3 text-white">
-            Gym, Spa & Salon Virtual Tours
+            Wellness & Fitness Centers
           </h3>
           <p class="text-blue-200/80 text-sm max-w-xs">
-            High-quality immersive tours for gyms, spas, and salons across Pune.
+            Spatial visualizations of gym and spa facilities highlighting equipment, layout, and atmosphere for potential members.
           </p>
         </div>
 
+        <!-- 7 Healthcare -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Medical Icon -->
+            <svg class="w-12 h-12 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 6v12M6 12h12"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Healthcare & Medical Facilities
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Professional virtual tours of clinics and hospitals to build patient trust and showcase specialized medical environments.
+          </p>
+        </div>
+
+        <!-- 8 Corporate & Industrial -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Factory Icon -->
+            <svg class="w-12 h-12 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 21V8l6 4V8l6 4V3l6 4v14H3z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Corporate & Industrial Spaces
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Enterprise-grade immersive tours of IT parks, corporate offices, and manufacturing units for stakeholder engagement.
+          </p>
+        </div>
+
+        <!-- Duplicate set for seamless looping -->
+        <!-- 1 Heritage & Cultural Preservation (duplicate) -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="animation: iconNeon 2s infinite; filter: brightness(70%)">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 10h18M5 10V6l7-3 7 3v4M6 10v8M18 10v8M3 18h18"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Heritage & Cultural Preservation
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Digital archiving and virtual tours of historical landmarks, temples, and forts to preserve and promote cultural heritage.
+          </p>
+        </div>
+
+        <!-- 2 Academic & Campus Tours (duplicate) -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 6l9 4-9 4-9-4 9-4zM3 10v6l9 4 9-4v-6"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Academic & Campus Tours
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Comprehensive 360° walkthroughs designed to showcase campus infrastructure and facilities to prospective students.
+          </p>
+        </div>
+
+        <!-- 3 Premium Real Estate (duplicate) -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 12l9-9 9 9M4 10v10h16V10"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Premium Real Estate
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            High-fidelity virtual property tours delivering immersive spatial experiences for luxury residential and commercial listings.
+          </p>
+        </div>
+
+        <!-- 4 Automotive & Retail Showrooms (duplicate) -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 11l2-5h10l2 5M3 11h18M6 16a1 1 0 100 2 1 1 0 000-2zm12 0a1 1 0 100 2 1 1 0 000-2z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Automotive & Retail Showrooms
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Interactive digital showrooms allowing customers to explore products and retail environments with precision detail.
+          </p>
+        </div>
+
+          <!-- 5 Hospitality & Leisure -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Hotel Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 21V7h16v14M4 7l8-4 8 4"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Hospitality & Leisure
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Engaging virtual previews of hotels, resorts, and restaurants designed to drive bookings and showcase ambiance.
+          </p>
+        </div>
+
+        <!-- 6 Wellness & Fitness -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Dumbbell Icon -->
+            <svg class="w-12 h-12 text-cyan-300 transition-transform duration-300 group-hover:scale-110" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M4 10h2v4H4zM18 10h2v4h-2zM6 11h12v2H6z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Wellness & Fitness Centers
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Spatial visualizations of gym and spa facilities highlighting equipment, layout, and atmosphere for potential members.
+          </p>
+        </div>
+
+        <!-- 7 Healthcare -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Medical Icon -->
+            <svg class="w-12 h-12 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 6v12M6 12h12"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Healthcare & Medical Facilities
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Professional virtual tours of clinics and hospitals to build patient trust and showcase specialized medical environments.
+          </p>
+        </div>
+
+        <!-- 8 Corporate & Industrial -->
+        <div class="marquee-item group flex flex-col items-center text-center border border-blue-500/30 rounded-2xl px-8 py-10 mx-4 bg-transparent transition-all duration-300 hover:border-cyan-400/60 hover:shadow-[0_0_25px_rgba(34,211,238,0.15)]">
+          <div class="w-14 h-14 mb-5 flex items-center justify-center">
+            <!-- Factory Icon -->
+            <svg class="w-12 h-12 text-cyan-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M3 21V8l6 4V8l6 4V3l6 4v14H3z"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-xl mb-3 text-white">
+            Corporate & Industrial Spaces
+          </h3>
+          <p class="text-blue-200/80 text-sm max-w-xs">
+            Enterprise-grade immersive tours of IT parks, corporate offices, and manufacturing units for stakeholder engagement.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-
+</section>
   <!-------------ABOUT SECTION--------------------------->
   <section class="-mt-20 py-20 overflow-hidden bg-gradient-to-b from-gray-950 via-black to-gray-950 relative">
     <div class="container mx-auto px-5 md:px-8 max-w-6xl">
